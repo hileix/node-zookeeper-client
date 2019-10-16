@@ -241,6 +241,9 @@ Client.prototype.onConnectionManagerState = function (connectionManagerState) {
     case ConnectionManager.STATES.DISCONNECTED:
         state = State.DISCONNECTED;
         break;
+    case ConnectionManager.STATES.CONNECTING:
+        state = State.CONNECTING;
+        break;
     case ConnectionManager.STATES.CONNECTED:
         state = State.SYNC_CONNECTED;
         break;
