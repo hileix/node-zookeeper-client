@@ -46,6 +46,7 @@ export interface Stat {
 
 export class State {
     static DISCONNECTED: State;
+    static CONNECTING: State;
     static SYNC_CONNECTED: State;
     static AUTH_FAILED: State;
     static CONNECTED_READ_ONLY: State;
