@@ -5,6 +5,7 @@
   "author": "Alex Guan <alex.guan@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "zookeeper",
     "client",
