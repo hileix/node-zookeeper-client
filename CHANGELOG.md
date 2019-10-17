@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2.0
+1. Expose State Connecting so that it could control the retries outside somewhere to avoid the [Issue #30: infinite connect retries](https://github.com/alexguan/node-zookeeper-client/issues/30)
+2. Fix vulnerability found by audit
+
 ## 1.1.0
 
 1. [New: Add removeRecursive and listSubTreeBFS methods](https://github.com/alexguan/node-zookeeper-client/pull/88)
